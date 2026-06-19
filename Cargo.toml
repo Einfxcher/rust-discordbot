@@ -1,0 +1,13 @@
+[package]
+name = "rust-discordbot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+poise = "0.6"
+serenity = { version = "0.12", features = ["client", "gateway", "rustls_backend"] }
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+dotenv = "0.15"
+anyhow = "1.0"
